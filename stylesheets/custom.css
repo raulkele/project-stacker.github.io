@@ -1,0 +1,35 @@
+.default-bg {
+  background: none!important;
+  background-color:hsla(232,15%,21%,1)!important; 
+}
+
+.content-container-centered {
+  padding: 5.2rem 0;
+}
+
+.centered-title {
+  color: hsla(232,75%,95%,1)!important;
+}
+
+.centered-content-grid {
+  margin-top: 2.4rem
+
+}
+
+.centered-content-grid ul.centered-content-grid__list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.6rem;
+  padding: 0;
+}
+
+.centered-content-grid ul.centered-content-grid__list > li.centered-content-grid__item{
+  display: flex;
+  flex: 1 0 48%;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.centered-content-grid ul.centered-content-grid__list > li.centered-content-grid__item  div.item_content{
+  color: hsla(232,75%,95%,1)!important;
+}
