@@ -75,6 +75,44 @@
   }
 }
 
+/* Feature related css */
+.content-container-centered .feature-container {
+  margin: 2em 0;
+}
+
+.content-container-centered .feature-container figure.feature-content {
+  display: flex;
+  flex: 1 0 48%;
+  flex-flow: row nowrap;
+  gap: 3.2rem;
+  margin: 0 0 3.2rem;
+  text-align: left;
+  max-width: 100%;
+  width: 100%;
+}
+
+.content-container-centered .feature-container figure.feature-content figcaption {
+  margin-top: 0.8rem;
+  font-style: normal;
+  margin:0;
+  max-width: none;
+}
+
+.content-container-centered .feature-container figure.feature-content figcaption h2 {
+  font-weight: 700;
+  margin-top: 0.175em;
+}
+
+.content-container-centered .feature-container figure.feature-content a {
+  display: block;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 60em) {
+  .content-container-centered .feature-container figure.feature-content:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+}
 
 /* Custom rulesets based on material theme */
 .md-button.md-button--custom {
