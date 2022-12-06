@@ -31,7 +31,7 @@
   gap: 0.6rem;
   margin: 0;
 }
-.centered-content-grid ul.centered-content-grid__list > li.centered-content-grid__item  div.item_content h2.card_title {
+.centered-content-grid ul.centered-content-grid__list > li.centered-content-grid__item  div.item_content .card_title {
   font-weight: 700;
   margin-top: 0.175em;
 }
